@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+			<!-- Slide 1 -->
+			<section>
+				<h2>Restricciones de Rechazo, Verificación y Aserción</h2>
+			</section>
+
+			<!-- Slide 2 -->
+			<section>
+				<h2>Restricciones de Rechazo</h2>
+				<p><strong>Definición:</strong> Criterios para determinar la aceptación o rechazo de elementos en un sistema o proceso.</p>
+				<p><strong>Importancia:</strong> Garantizan la calidad del producto, contribuyen a la seguridad y aseguran el cumplimiento normativo.</p>
+				<p><strong>Ejemplos de Restricciones:</strong></p>
+				<ul>
+				<li>Validación de Datos</li>
+				<li>Control de Acceso</li>
+				<li>Seguridad de Transacciones</li>
+				<li>Cumplimiento Normativo</li>
+				</ul>
+				<p><strong>Implementación:</strong> Validación de Datos, Pruebas de Software, Monitoreo Continuo.</p>
+			</section>
+
+			<!-- Slide 3 -->
+			<section>
+				<h2>Verificación</h2>
+				<p><strong>Definición:</strong> Evaluación sistemática para determinar si un producto o componente cumple con las especificaciones y requisitos.</p>
+				<p><strong>Ejemplo:</strong> Pruebas exhaustivas en el desarrollo de un módulo de software.</p>
+			</section>
+
+			<!-- Slide 4 -->
+			<section>
+				<h2>Aserción</h2>
+				<p><strong>Definición:</strong> Declaraciones o expresiones utilizadas para especificar o verificar condiciones en un punto particular durante la ejecución del programa.</p>
+				<p><strong>Ejemplo:</strong> Aserción para verificar el tamaño de un archivo en un sistema de gestión de archivos.</p>
+			</section>
+
+			<!-- Slide 5 -->
+			<section>
+				<h2>Conclusiones</h2>
+				<ul>
+				<li>Restricciones de rechazo son esenciales para garantizar calidad, seguridad y cumplimiento normativo.</li>
+				<li>Verificación asegura que un producto cumpla con requisitos especificados.</li>
+				<li>Aserciones son herramientas poderosas para garantizar integridad y consistencia del software.</li>
+				</ul>
+			</section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
